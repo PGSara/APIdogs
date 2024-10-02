@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favoritos de Cães</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Galeria de Cães</h1>
+
+    <select id="raçaSelect"></select>
+    <button id="fetchDog">Buscar Imagens</button>
+
+    <div>
+        <button id="exibirFavoritos">Exibir Favoritos</button>
+        <button id="limparFiltro">Limpar Filtro</button>
+    </div>
+
+    <div id="dogsContainer"></div> <!-- Exibir cães -->
+
+    <div id="favoritosContainer">
+        <h2>Favoritos</h2>
+        <div id="favoritosList"></div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
